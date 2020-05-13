@@ -10,7 +10,7 @@ Cette documentation a pour objectif d'expliquer a nos colaborateurs:
 
 ## Patie I - Gestion du Catalogue Produit
 
-* CHAPITRE 1 - CREER UN ARTICLE
+* [CHAPITRE 1 - CREER UN ARTICLE](pages/chapter_1.md)
 * CHAPITRE 2 - CONSULTER UNE FICHE D’ARTICLE
 
 ## Patie II - Gestion des Ventes
