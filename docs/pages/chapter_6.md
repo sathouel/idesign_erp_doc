@@ -1,4 +1,4 @@
-# CHAPITRE 6 - CONSULTER UNE FICHE FOURNISSEUR
+# CHAPITRE 06 - CONSULTER UNE FICHE FOURNISSEUR
 
 **Lorsque vous consultez la fiche d’un fournisseur vous pouvez trouver :**
 

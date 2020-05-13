@@ -1,4 +1,4 @@
-# CHAPITRE 5 - CREER UN FOURNISSEUR
+# CHAPITRE 05 - CREER UN FOURNISSEUR
 
 1.	**FOURNISSEUR > Cliquer sur le bouton en haut à droite "NOUVEAU", puis en bas "modifier en pleine page"**
 2.	**Remplir les champs** : nom du fournisseur, code fournisseur, pays du fournisseur, 

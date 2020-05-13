@@ -1,4 +1,4 @@
-# CHAPITRE 8 - Import de données – Liste de prix
+# CHAPITRE 08 - Import de données – Liste de prix
 
 1. Cliquer en haut a droite sur Nouveau
 2. Taper dans le champs "type de document" liste de prix et le selectioner

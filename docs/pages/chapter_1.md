@@ -1,4 +1,4 @@
-# CHAPITRE 1 - CREER UN ARTICLE
+# CHAPITRE 01 - CREER UN ARTICLE
 
 **TOUTES LES INFO TECHNIQUES (mesures produits, colis, couleurs, matière, colisage, écotaxe, description etc..) sont à remplir uniquement dans le PIM. Une fois les info remplis dans le PIM elles apparaitrons automatiquement dans la fiche produit du system si vous avez besoin de les consulter. L’unique source d’information au niveau catalogue et info produits sera le PIM**
 

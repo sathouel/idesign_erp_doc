@@ -1,4 +1,4 @@
-# CHAPITRE 7 - CREER UNE LISTE DE PRIX 
+# CHAPITRE 07 - CREER UNE LISTE DE PRIX 
 
 1.	Se rendre dans la section Liste de Prix et cliquer sur Nouveau en haut a droite
 2.	Remplir les champs Nom de la liste, selectioner la devise **et surtout specifier si c’est une liste de prix a l’achat ou a la vente en cochant la case correspondante**

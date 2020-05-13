@@ -1,4 +1,4 @@
-# CHAPITRE 3 - CREER UN CLIENT
+# CHAPITRE 03 - CREER UN CLIENT
 
 1.	**CLIENT > Cliquer sur le bouton en haut à droite "NOUVEAU", puis en bas "modifier en pleine page"**
 2.	**Remplir les champs** : nom complet, raison social, SIRET, Numéro d’identité fiscal (num de TVA)

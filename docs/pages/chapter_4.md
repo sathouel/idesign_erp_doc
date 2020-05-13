@@ -1,4 +1,4 @@
-# CHAPITRE 4 - CONSULTER UNE FICHE CLIENT
+# CHAPITRE 04 - CONSULTER UNE FICHE CLIENT
 
 **Lorsque vous consultez la fiche d’un client vous pouvez trouver :**
 
