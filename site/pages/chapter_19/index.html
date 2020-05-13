@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>CHAPITRE 19 - CREER DES CONDITIONS DE PAIEMENT – Achats et Vente - IDesign ERP Documentation</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../..">IDesign ERP Documentation</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="../..">Sommaire</a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../chapter_01/">CHAPITRE 01 - CREER UN ARTICLE</a>
+</li>
+                                    
+<li >
+    <a href="../chapter_02/">CHAPITRE 02 - CONSULTER UNE FICHE D’ARTICLE</a>
+</li>
+                                    
+<li >
+    <a href="../chapter_03/">CHAPITRE 03 - CREER UN CLIENT</a>
+</li>
+                                    
+<li >
+    <a href="../chapter_04/">CHAPITRE 04 - CONSULTER UNE FICHE CLIENT</a>
+</li>
+                                    
+<li >
+    <a href="../chapter_05/">CHAPITRE 05 - CREER UN FOURNISSEUR</a>
+</li>
+                                    
+<li >
+    <a href="../chapter_06/">CHAPITRE 06 - CONSULTER UNE FICHE FOURNISSEUR</a>
+</li>
+                                    
+<li >
+    <a href="../chapter_07/">CHAPITRE 07 - CREER UNE LISTE DE PRIX</a>
+</li>
+                                    
+<li >
+    <a href="../chapter_08/">CHAPITRE 08 - Import de données – Liste de prix</a>
+</li>
+                                    
+<li >
+    <a href="../chapter_09/">CHAPITRE 09 - CONSULTER LES LISTING PRIX</a>
+</li>
+                                    
+<li >
+    <a href="../chapter_10/">CHAPITRE 10 - FEUILLE DE STOCK – Consultation et export</a>
+</li>
+                                    
+<li >
+    <a href="../chapter_11/">CHAPITRE 11 - Suivit des achat de marchandises – bons de commande en arrivage</a>
+</li>
+                                    
+<li >
+    <a href="../chapter_12/">CHAPITRE 12 - SUIVIT CONTENAIRE – Arrivage des conteneurs avec date et statu de paiement</a>
+</li>
+                                    
+<li >
+    <a href="../chapter_13/">CHAPITRE 13 - COMMANDE CLIENT – REPARTISSION DU STOCK ENTRE LES CMD CLIENTS ET SUIVIT</a>
+</li>
+                                    
+<li >
+    <a href="../chapter_14/">CHAPITRE 14 - Ajouter des frais de port pour une livraison client (franco non atteint, livraison a la charge du client)</a>
+</li>
+                                    
+<li >
+    <a href="../chapter_15/">CHAPITRE 15 - PROCESSUS D’ACHAT DE MARCHANDISE AUX USINES</a>
+</li>
+                                    
+<li >
+    <a href="../chapter_16/">CHAPITRE 16 - COMMANDE TRANSITAIRE POUR LIVRAISON DE MARCHANDISE ACHETEE</a>
+</li>
+                                    
+<li >
+    <a href="../chapter_17/">CHAPITRE 17 - ACHAT DE FOURNITURE CONSOMABLE ID (PALETTE, FILM PLASTIQUE, FEUILLE, ANCRE, ETIQUETTE)</a>
+</li>
+                                    
+<li >
+    <a href="../chapter_18/">CHAPITRE 18 - PROCESSUS DE VENTE D’ARTICLES AUX CLIENTS, COMMANDE, PREPARATION ET LIVRAISON</a>
+</li>
+                                    
+<li class="active">
+    <a href="./">CHAPITRE 19 - CREER DES CONDITIONS DE PAIEMENT – Achats et Vente</a>
+</li>
+                                    
+<li >
+    <a href="../chapter_20/">CHAPITRE 20 - CREER LES COMPTES BANQUAIRE : NOS COMPTES BANQUAIRES SOCIETE ET CEUX DE NOS FOURNISSEURS</a>
+</li>
+                                    
+<li >
+    <a href="../chapter_21/">CHAPITRE 21 - FAIRE UN AVOIR – credit note</a>
+</li>
+                                    
+<li >
+    <a href="../chapter_22/">CHAPITRE 22 - EXPORTER DES DOCUMENTS/GROUPER</a>
+</li>
+                                    
+<li >
+    <a href="../chapter_23/">CHAPITRE 23 – IMPORTATION DE COMMANDE CLIENT PAR EXCEL, SANS RESAISI</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../chapter_18/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../chapter_20/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#chapitre-19-creer-des-conditions-de-paiement-achats-et-vente">CHAPITRE 19 - CREER DES CONDITIONS DE PAIEMENT – Achats et Vente</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="chapitre-19-creer-des-conditions-de-paiement-achats-et-vente">CHAPITRE 19 - CREER DES CONDITIONS DE PAIEMENT – Achats et Vente</h1>
+<p><strong>Dans ce processus il faudra créer plusieurs termes de paiement pour ensuite les combiner afin de créer un modèle de paiement. C’est le model de paiement qui sera à appliquer aux client/fournisseur/bon de commande etc.</strong></p>
+<ol>
+<li>
+<p>Taper dans la bar de recherche <strong>Terme de paiement Liste</strong></p>
+</li>
+<li>
+<p>Cliquer sur le bouton <strong>Nouveau</strong> en haut à droite</p>
+</li>
+<li>
+<p>Remplir <strong>"Nom du terme de paiement"</strong> – c’est à dire donner un nom au terme de paiement que vous êtes en train de créer. Exemple, si vous souhaiter créer une condition de paiement qui soit 20% d’acompte a la commande alors vous pouvez nommer le terme de paiement comme"20% d’acompte" par exemple)</p>
+</li>
+<li>
+<p>Remplir <strong>"Pourcentage de facturation"</strong> – Ici il faudra indiquer le pourcentage de la facture que vous souhaitez conditionner. A savoir toujours dans notre exemple de 20% d’acompte a la commande, vous souhaitez que 20% de la commande ai une date de paiement différente du reste donc vous écrirez 20 (sans besoin de mettre le signe %)</p>
+</li>
+<li>
+<p>Sélectionner <strong>"Date d'échéance basée sur"</strong> – ici vous avez 3 choix pour décider à partir de quel moment voulez-vous que les termes de paiement soient comptabilisés. Les 3 choix sont 1. Nombres de jours après la date de facturation, 2. Nombre de jours après la fin du mois de facture ou 3. Nombre de jours après la fin du mois de la facture. Reprenons notre exemple de créer une condition de paiement qui soit 20% d’acompte a la commande – ici vous sélectionnerez 1. Nombres de jours après la date de facturation.</p>
+</li>
+<li>
+<p>Remplir <strong>"Jours de Crédit"</strong> – ici vous indiquerez le nombre de jour après la date de facturation après lesquelles le paiement est due. Ici si les 20% d’acompte sont due immédiatement, il faudra alors remplir par le chiffre zéro. En admettant que nous ayons une fenêtre de 5 jours pour effectuer ce paiement à partir de la date de commande alors nous remplirons ces champs par le chiffre 5 </p>
+</li>
+<li>
+<p>Remplir <strong>"Mode de Paiement"</strong> – champs facultatif pour indiquer que ce terme de paiement sera fait par virement/cheque/carte/espèces</p>
+</li>
+<li>
+<p>Remplir <strong>"Description"</strong> – Rédiger la description de votre terme de paiement vous prêtera de clarifier la règle appliquer- ici une bonne description de notre exemple serait" Paiement de 20% de la somme a réaliser immédiatement (ou sous 5 jours) à partir de la date de facturation de la commande</p>
+</li>
+</ol>
+<p><strong>ATTENTION – Vous venez de créer UNIQUEMENT les 20% d’acompte à travers cette condition de paiement, vous devez maintenant créer un autre terme de paiement pour définir les 80% restant (qui pourraient être due à réception de la marchandise / à 60 jours de la commande / à la réception de marchandise ou il faudra alors estimer le nombre de jours entre la commande et l’arrivée de la marchandise. Pour créer les 80% restant nous faisons une nouvelle création de condition de paiement exactement de la même façon qu’expliquer au-dessus mais maintenant avec 80%</strong></p>
+<p><strong>Une fois que vos termes de paiement (partiels) sont créer, Vous devrez les unir afin de créer une condition de paiement COMPLETE cad qui regroupera les 20% et les 80%. Pour cela :</strong></p>
+<ol>
+<li>
+<p>Taper dans la bar de recherché <strong>Modèle de termes de paiement Liste</strong></p>
+</li>
+<li>
+<p>Cliquer sur le bouton <strong>Nouveau</strong> en haut à droite</p>
+</li>
+<li>
+<p>Remplir <strong>"Nom du model"</strong> – Vous allez nommer le model de paiement que vous créez qui va combiner 2 terme de paiement (ou plus que 2 si les conditions de paiement que vous souhaitez créer sont un échelonnement sur 3 temps, 4 temps ou plus, il faudra juste créer autant de terme de paiement que nécessaire). Pour reprendre notre exemple, nous combiner 2 terme de paiement :a).les 20% d’acompte a date de la commande et b)les 80% a 60 jours de la comm<strong>ande. Nous pouvons donc </strong>nommer ce model comme 20% comptant, 80% à 60 jours par exemple</p>
+</li>
+<li>
+<p>Remplir le tableau <strong>"Termes de paiement"</strong> – ici vous allez sélectionner dans la première ligne, première colonne le terme de paiement créer au préalable pour les 20% d’acompte (un rouleau va apparaitre avec tous les termes de paiement créer plus haut. En sélectionnant un de ces termes de paiement, les colonnes suivantes vont se remplir automatiquement avec les informations entrées lors de la création de vos termes de paiement plus haut) puis dans la deuxième ligne vous vous allez sélectionner le terme de paiement créer au préalable pour les 80% d’acompte de la même façon. </p>
+</li>
+</ol>
+<p><strong>Ainsi vous créer un MODEL de termes de paiement qui regroupe plusieurs termes de paiement partiel pour créer un model complet dont la somme cumulée est de 100% du paiement</strong></p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
