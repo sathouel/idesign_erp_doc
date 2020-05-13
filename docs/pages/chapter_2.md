@@ -1,4 +1,4 @@
-## CHAPITRE 2 - CONSULTER UNE FICHE D’ARTICLE
+# CHAPITRE 2 - CONSULTER UNE FICHE D’ARTICLE
 
 **Lorsque vous consultez la fiche d’un article vous pouvez trouver :**
 
