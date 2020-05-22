@@ -43,7 +43,11 @@ Cette documentation a pour objectif d'expliquer a nos colaborateurs:
 * [CHAPITRE 19 - CREER DES CONDITIONS DE PAIEMENT – Achats et Vente](pages/chapter_19.md) 
 * [CHAPITRE 22 - EXPORTER DES DOCUMENTS/GROUPER (Ensemble de factures, de commandes clients, de bon de livraison)](pages/chapter_22.md)
 
-## Patie IV - Gestion Comptable
+## Partie IV - Gestion SAV
+
+* [CHAPITRE 24 – SAV CLIENT ET PREPARATION SAV ](pages/chapter_24.md)
+
+## Patie V - Gestion Comptable
 
 * [CHAPITRE 20 - CREER LES COMPTES BANQUAIRE : NOS COMPTES BANQUAIRES SOCIETE ET CEUX DE NOS FOURNISSEURS](pages/chapter_20.md)
 * [CHAPITRE 21 - FAIRE UN AVOIR – credit note](pages/chapter_21.md) 
